@@ -1,0 +1,165 @@
+/**banner展示样式**/
+.index_banner_slides {
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    position: relative;
+}
+.index_banner_slides .slides_container{
+    height: 380px;
+    position: relative;
+}
+.slides_container .slides_cell a {
+    display: block;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.slides_container .slides_cell{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.slides_container .slides_cell .banner1{
+    background-image: url(imgs/bannerBig1.jpg);
+}
+.banner_ad{
+    display: inline-block;
+    width: 36px;
+    height: 18px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    border: 1px solid #fff;
+    margin-top: 355px;
+    margin-left: 184px;
+}
+.slides_container .slides_cell div{
+    margin: 0 auto;
+    width: 100%;
+    height: 380px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.index_banner_slides .slides_pagination{
+    position: absolute;
+    bottom: 10px;
+    left: 44%;
+    z-index: 10;
+    width: 200px;
+}
+.slides_pagination .slides_pagination_item{
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+    float: left;
+}
+.slides_pagination .slides_pagination_item a{
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url(../../../public-resource/imgs/tips/spritesheet.png) no-repeat -17px -1px;
+    _background: url(../../../public-resource/imgs/tips/spritesheet.jpg) no-repeat -17px -1px;
+}
+.slides_pagination .slides_pagination_item a.active,.slides_pagination .slides_pagination_item a:hover{
+    background-position: -1px -1px;
+}
+
+/**内容展示区域**/
+.index_show_box{
+    width: 100%;
+    background-color: #F4F9FA;
+}
+.index_show_box .show_title{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0 20px 0;
+}
+.show_title .title{
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    color: #333;
+}
+.show_title .enter{
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #666;
+    float: right;
+}
+.show_title .enter i{
+    margin-left: 10px;
+    top: 0;
+}
+.index_show_box .show_content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.show_content .show_cell{
+    width: 388px;
+    margin-left: 18px;
+    border-top: solid 1px #CB0708;
+    float: left;
+}
+.show_content .show_cell:first-child{
+    margin-left: 0;
+}
+.show_cell .show_banner1,.show_cell .show_banner2,.show_cell .show_banner3{
+    position: relative;
+    width: 386px;
+    height: 164px;
+}
+.show_cell .show_banner1{
+    background: url("imgs/eq/banner1.jpg");
+}
+.show_cell .show_banner2{
+    background: url("imgs/eq/banner2.jpg");
+}
+.show_cell .show_banner3{
+    background: url("imgs/eq/banner3.jpg");
+}
+.show_cell .show_inner{
+    padding: 28px 0 0 24px;
+    position: absolute;
+    top: 0;
+}
+.show_cell .show_list{
+    width: 346px;
+    height: 240px;
+    padding: 28px 20px 0px 20px;
+    background-color: #fff;
+}
+.show_list li{
+    height: 50px;
+    margin-bottom: 30px;
+}
+.show_list li a{
+    display: block;
+    height: 50px;
+}
+.show_list li img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    float: left;
+}
+.show_list li p {
+    float: left;
+    width: 280px;
+    margin-left: 16px;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.show_list li p.price{
+    margin-top: 18px;
+}
+.show_list li p span{
+    margin-right: 12px;
+}

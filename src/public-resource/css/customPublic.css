@@ -1,0 +1,122 @@
+/**基础样式**/
+body {
+    min-width: 1200px;
+    font-size:12px;
+    line-height:1.2;
+    padding:0;
+    margin:0;
+    font-family:'Microsoft YaHei','simsun';
+    color: #666666;
+}
+
+a{
+    color: #333333;
+    text-decoration: none;
+}
+a:hover{
+    color: #005BAC;
+}
+
+input,select,textarea,table {
+    font-size:12px;
+    font-family:'Microsoft YaHei','simsun';
+}
+
+table {
+    margin:0 auto;
+}
+
+.floatL {
+    float:left;
+}
+
+.floatR {
+    float:right;
+}
+.clear {
+    clear:both;
+    height:0;
+    line-height:0;
+    font-size:0;
+    overflow:hidden;
+}
+.clearBorder{
+    border: none!important;
+}
+
+.clearFloat {
+    clear:both;
+    overflow:hidden;
+}
+/* 用于浮动元素的父元素 */
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+/*兼容IE6、7*/
+.clearfix {
+    *zoom:1;
+}
+
+.inlineBlock{
+    display: inline-block;
+}
+/**width**/
+.width1200{
+    width: 1200px;
+}
+/**margin-right**/
+.marginR24{
+    margin-right: 24px;
+}
+/**font-size**/
+.fontSize12{
+    font-size: 12px!important;
+}
+/**字体颜色**/
+.textRed{
+    color: #CD090A!important;
+}
+.textBlue{
+    color: #005BAC!important;
+}
+.textBlack1{
+    color: #333!important;
+}
+.textBlack2{
+    color: #666!important;
+}
+/**字体排版**/
+.textC{
+    text-align: center;
+}
+.textR{
+    text-align: right;
+}
+.textL{
+    text-align: left;
+}
+/**背景颜色**/
+.backgroundColor1{
+    background-color: #DCEEFC;
+}
+/**验证必填**/
+.TZW{
+    vertical-align: -2px;
+    margin: 5px;
+    color: #ff5959;
+}
+/**手型**/
+.curPointer{
+    cursor: pointer;
+}
+/**限制显示省略号**/
+.ellipsis{
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

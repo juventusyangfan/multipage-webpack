@@ -1,0 +1,376 @@
+/**banner展示样式**/
+.index_banner_slides {
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    position: relative;
+}
+.index_banner_slides .slides_container{
+    height: 380px;
+    position: relative;
+}
+.slides_container .slides_cell a {
+    display: block;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.slides_container .slides_cell{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.banner_ad{
+    display: inline-block;
+    width: 36px;
+    height: 18px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    border: 1px solid #fff;
+    margin-top: 355px;
+    margin-left: 184px;
+}
+.slides_container .slides_cell div{
+    margin: 0 auto;
+    width: 100%;
+    height: 380px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.index_banner_slides .slides_pagination{
+    position: absolute;
+    bottom: 10px;
+    left: 44%;
+    z-index: 10;
+    width: 200px;
+}
+.slides_pagination .slides_pagination_item{
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+    float: left;
+}
+.slides_pagination .slides_pagination_item a{
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url(../../../public-resource/imgs/tips/spritesheet.png) no-repeat -17px -1px;
+    _background: url(../../../public-resource/imgs/tips/spritesheet.jpg) no-repeat -17px -1px;
+}
+.slides_pagination .slides_pagination_item a.active,.slides_pagination .slides_pagination_item a:hover{
+    background-position: -1px -1px;
+}
+
+/**商品展示样式**/
+.index_show_box .pic_show{
+    width: 100%;
+}
+.index_show_box .show_box_nav{
+    margin: 0 auto 30px;
+}
+.show_box_nav .show_box_container{
+    height: 360px;
+}
+.show_box_nav .show_box_container .show_box_name{
+    position: relative;
+    width: 240px;
+    height: 360px;
+    float: left;
+    overflow: hidden;
+}
+.show_box_nav .show_box_container .show_tab_name{
+    position: relative;
+    width: 240px;
+    height: 360px;
+    float: left;
+    background: url(imgs/adBanner6.jpg) no-repeat;
+}
+.show_box_nav .show_box_container .show_box_product{
+    width: 960px;
+    height: 357px;
+    float: left;
+}
+
+/* 建筑钢材 */
+.recommend{
+    width: 100%;
+    height: 38px;
+    background-color: #f4f4f4;
+}
+.borderFF9BA0{
+    border-top: 3px solid #D61532;
+}
+.recommend a{
+    float: right;
+    margin-right: 24px;
+    font-size: 12px;
+    color: #333;
+    margin-top: 14px;
+}
+.recommend a:hover{
+    color: #3aa1e7;
+}
+.focus_recommend{
+    width: 100%;
+    height: 318px;
+}
+.focus_recommend table{
+    width: 100%;
+    height: 245px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.focus_recommend td{
+    font-size: 14px;
+    color: #333;
+    width: 50%;
+    height: 63px;
+    border-right: solid #E5E5E5 1px;
+    border-bottom: solid #E5E5E5 1px;
+}
+.focus_recommend td a{
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    color: #333;
+}
+.block_color{
+    float: right;
+    margin-right: 34px;
+    color: #3aa1e7;
+    font-weight: 700;
+}
+/* 周转材料、专用材料 */
+.show_box_content{
+    height: 360px;
+}
+.show_box_content .show_box_name{
+    position: relative;
+    width: 240px;
+    height: 360px;
+    float: left;
+}
+.show_box_content .show_box_product{
+    width: 960px;
+    height: 357px;
+    float: left;
+    overflow: hidden;
+}
+.border71BAA3{
+    border-top: 3px solid #1789DA;
+}
+.borderFFC015{
+    border-top: 3px solid #B0CD2B;
+}
+.show_box_product .recommend h3{
+    float: left;
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+    text-indent: 16px;
+    height: 38px;
+    line-height: 40px;
+    background-color: #f4f4f4;
+}
+.card_content .blueTxt{
+    font-weight: 700;
+}
+.product_container{
+    width: 959px;
+    height: 317px;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+.product_card{
+    width: 916px;
+    height: 270px;
+    overflow: hidden;
+    position: absolute;
+    top: 24px;
+    left: 20px;
+}
+.product_container .pc_oprate{
+    width: 915px;
+    height: 270px;
+    position: absolute;
+    top: 24px;
+    left: 20px;
+}
+.pc_oprate span{
+    display: block;
+    width: 28px;
+    height: 49px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+}
+.pc_oprate .pc_left_btn{
+    top: 92px;
+    left: 1px;
+}
+.pc_oprate .pc_right_btn{
+    top: 92px;
+    right: -1px;
+}
+.product_card .product_warp{
+    width: 1200px;
+    height: 270px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.product_card .pc_item{
+    float: left;
+    width: 212px;
+    border: 1px solid #fff;
+    margin-right: 20px;
+}
+.product_card .pc_item:hover{
+    border-color: #c9c9c9;
+}
+.product_card .pc_img{
+    display: block;
+    width: 212px;
+    height: 212px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+.product_card  .pc_else{
+    width: 200px;
+    padding: 8px 6px;
+}
+.product_card  .pc_price{
+    font-size: 14px;
+    font-weight: 700;
+    color: #3aa1e7;
+    margin-bottom: 8px;
+}
+.product_card  .pc_com a{
+    display: inline-block;
+    width: 100px;
+    font-size: 14px;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* 资源集市 */
+.show_tab_name ul{
+    margin-top: 110px;
+}
+.show_tab_name ul li{
+    width: 122px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 auto 10px;
+}
+.show_tab_name li a{
+    display: inline-block;
+    width: 120px;
+    height: 34px;
+    line-height: 34px;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.show_tab_name li a:hover{
+    border-color: #fff;
+}
+.show_tab_name .active a{
+    border-color: #fff;
+}
+.bmmyouTab{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-left: solid #E5E5E5 1px;
+    border-right: solid #E5E5E5 1px;
+}
+.bmmyouTab th{
+    height: 53px;
+    border-bottom: solid #E5E5E5 1px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+.bmmyouTab td{
+    height: 60px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    border-bottom: solid #E5E5E5 1px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 200px;
+    padding: 0 10px;
+}
+table.bmmyouTab{
+    border-top: solid #B0CD2B 3px;
+}
+.bmmyouTab td a{
+    display: block;
+    height: 23px;
+    width: 90px;
+    padding-top: 7px;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 0 auto;
+}
+.bmmyouTab td a{
+    background-color: #3aa1e7;
+}
+/**广告位所需要用的样式**/
+.index_banner_box .ad_banner_box{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+.index_banner_box a.ad_cell{
+    display: inline-block;
+    margin: 30px 0;
+}
+/* 飘浮的二维码 */
+#float_qrcode{
+    position: absolute;
+    width: 170px;
+    height: 190px;
+    overflow: hidden;
+    z-index: 222;
+}
+#float_qrcode .float_qr_mask{
+    position: absolute;
+    width: 170px;
+    height: 190px;
+    background-color: #000;
+    opacity: 0.5;
+    filter: alpha(opacity: 50);
+}
+#float_qrcode .float_qr_wrap{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 150px;
+    height: 170px;
+    margin: auto;
+}
+.float_qr_wrap span{
+    display: block;
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+}
+.float_qr_wrap p img{
+    width: 100%;
+    height: 100%;
+}

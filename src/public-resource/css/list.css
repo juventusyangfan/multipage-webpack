@@ -1,0 +1,35 @@
+/*material_content*/
+.material_content{
+    width: 1200px;
+    margin: 0 auto;
+    color: #333333;
+}
+.material_list {
+    border-right: solid 1px #e5e5e5;
+}
+.material_list table{
+    border-collapse: collapse;
+    width: 1200px;
+    text-align: center;
+    float: left;
+    border: solid 1px #e5e5e5;
+    border-bottom: none;
+}
+.material_list th{
+    height: 55px;
+    line-height: 55px;
+    background-color: #e2ecf3;
+    font-size: 14px;
+    color: #333333;
+    border: none;
+}
+.material_list tr{
+    border-bottom: solid 1px #e5e5e5;
+}
+.material_list td{
+    height: 60px;
+    line-height: 60px;
+    border: none;
+    font-size: 12px;
+    position: relative;
+}

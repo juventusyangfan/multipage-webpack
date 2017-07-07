@@ -1,0 +1,36 @@
+/* 页码样式 */
+#pages{
+    width: 100%;
+    height: 100px;
+}
+#pages .pages_wrap{
+    float: right;
+    margin-top: 35px;
+}
+#pages .pages_wrap a{
+    display: inline-block;
+    margin-left: 8px;
+    height: 30px;
+    line-height: 30px;
+    border: solid 1px #c9c9c9;
+    background: #F6F6F6;
+}
+#pages .p_num{
+    text-align: center;
+    width: 30px;
+}
+#pages .p_else{
+    padding: 0 10px;
+}
+#pages .current{
+    display: inline-block;
+    margin-left: 8px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #3AA1E7;
+    font-size: 12px;
+    font-weight: bolder;
+    cursor: default;
+}

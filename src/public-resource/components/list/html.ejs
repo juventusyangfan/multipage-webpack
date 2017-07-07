@@ -1,0 +1,25 @@
+<div class="material_list">
+    <table>
+        <thead>
+        <tr>
+            <% titles.forEach(function(title){ %>
+            <th class="width256"><%= title %></th>
+            <% }) %>
+        </tr>
+        </thead>
+        <tbody>
+        <% content.forEach(function(con){ %>
+        <tr product_id="718">
+            <td><%= con.pm %></td>
+            <td><%= con.cz %></td>
+            <td><%= con.gg %></td>
+            <td><%= con.sl %></td>
+            <td><%= con.jgqj %></td>
+            <td><%= con.zk %></td>
+        </tr>
+        <% }) %>
+        </tbody>
+    </table>
+    <div class="clear"></div>
+</div>
+
